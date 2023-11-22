@@ -5,7 +5,7 @@ To download the weights for the Invisibility Clock, click [here](#hyperlink-the-
 
 ## Configuration
 
-Before running the Invisibility Clock, make sure to replace the placeholder DB connection URL with your actual MongoDB Compass connection URL.
+Before running the Invisibility Cloak, make sure to replace the placeholder DB connection URL with your actual MongoDB Compass connection URL.
 
 ```python
 # Replace this line with your MongoDB Compass connection URL

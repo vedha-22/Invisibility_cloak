@@ -8,13 +8,12 @@ import secrets
 app = Flask(__name__)
 app.secret_key = secrets.token_hex(16)  # 16 bytes to generate a 32-character hexadecimal string
 
-# MongoDB Configuration
+# MongoDB Configuration connection string
 app.config['MONGO_URI'] = 'mongodb://localhost:27017/UserDB'
 mongo = PyMongo(app)
 
 # User collection in MongoDB
 users_collection = mongo.db.users
-
 
 @app.route('/')
 def index():
